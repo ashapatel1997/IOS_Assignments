@@ -17,16 +17,14 @@
 @synthesize collection_view;
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _images=[[NSArray alloc]initWithObjects:@"Backwaters.jpg",@"Jaisalmer.jpg",@"Old Goa.jpg", nil];
-    _labels=[[NSArray alloc]initWithObjects:@"Backwaters",@"Jaisalmer Fort",@"Old Goa", nil];
-    // Do any additional setup after loading the view, typically from a nib.
+    _images=[[NSArray alloc]initWithObjects:@"backwaters.jpg",@"jaisalmer.jpg",@"redfort.jpg",@"lakepalace.jpg",@"qutubMinar.jpg",@"amberFort.jpg",@"goldenTemple.jpg",@"theRidge.jpg",@"valleyOfFlowers.jpg", nil];
+    _labels=[[NSArray alloc]initWithObjects:@"Backwaters",@"Jaisalmer Fort",@"Red Fort",@"Lake Palace",@"Qutub Minar",@"Amber Fort",@"Golden Temple",@"The Ridge",@"Valley of Flowers", nil];
 }
 
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
@@ -34,7 +32,7 @@
     return _images.count;
 }
 
-// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
+
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionViewCell * cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];

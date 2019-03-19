@@ -15,11 +15,15 @@
 		5E3ABDBA2240F86D001A625D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ABDB92240F86D001A625D /* main.m */; };
 		5E3ABDC42240F86D001A625D /* Assignment_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ABDC32240F86D001A625D /* Assignment_3Tests.m */; };
 		5E3ABDCF2240F86D001A625D /* Assignment_3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3ABDCE2240F86D001A625D /* Assignment_3UITests.m */; };
-		5E3ABDE42240FA6B001A625D /* Red Fort, Delhi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDDF2240FA6A001A625D /* Red Fort, Delhi.jpg */; };
-		5E3ABDE52240FA6B001A625D /* Old Goa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDE02240FA6A001A625D /* Old Goa.jpg */; };
-		5E3ABDE62240FA6B001A625D /* Backwaters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDE12240FA6A001A625D /* Backwaters.jpg */; };
-		5E3ABDE72240FA6B001A625D /* Jaisalmer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDE22240FA6A001A625D /* Jaisalmer.jpg */; };
-		5E3ABDE82240FA6B001A625D /* Statue of Unity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDE32240FA6A001A625D /* Statue of Unity.jpg */; };
+		5E3ABDEA22410869001A625D /* qutubMinar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDE922410869001A625D /* qutubMinar.jpg */; };
+		5E3ABDEF224109A7001A625D /* theRidge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDEB224109A7001A625D /* theRidge.jpg */; };
+		5E3ABDF0224109A7001A625D /* valleyOfFlowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDEC224109A7001A625D /* valleyOfFlowers.jpg */; };
+		5E3ABDF1224109A7001A625D /* amberFort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDED224109A7001A625D /* amberFort.jpg */; };
+		5E3ABDF2224109A7001A625D /* goldenTemple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDEE224109A7001A625D /* goldenTemple.jpg */; };
+		5E3ABDF422410B45001A625D /* backwaters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDF322410B44001A625D /* backwaters.jpg */; };
+		5E3ABDF622410B6F001A625D /* jaisalmer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDF522410B6F001A625D /* jaisalmer.jpg */; };
+		5E3ABDF822410B9B001A625D /* redfort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDF722410B9B001A625D /* redfort.jpg */; };
+		5E3ABDFA22410C98001A625D /* lakepalace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E3ABDF922410C98001A625D /* lakepalace.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +60,15 @@
 		5E3ABDCA2240F86D001A625D /* Assignment_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment_3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3ABDCE2240F86D001A625D /* Assignment_3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment_3UITests.m; sourceTree = "<group>"; };
 		5E3ABDD02240F86D001A625D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E3ABDDF2240FA6A001A625D /* Red Fort, Delhi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Red Fort, Delhi.jpg"; path = "../../Assignments/Assignment_3/Images/Red Fort, Delhi.jpg"; sourceTree = "<group>"; };
-		5E3ABDE02240FA6A001A625D /* Old Goa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Old Goa.jpg"; path = "../../Assignments/Assignment_3/Images/Old Goa.jpg"; sourceTree = "<group>"; };
-		5E3ABDE12240FA6A001A625D /* Backwaters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Backwaters.jpg; path = ../../Assignments/Assignment_3/Images/Backwaters.jpg; sourceTree = "<group>"; };
-		5E3ABDE22240FA6A001A625D /* Jaisalmer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Jaisalmer.jpg; path = ../../Assignments/Assignment_3/Images/Jaisalmer.jpg; sourceTree = "<group>"; };
-		5E3ABDE32240FA6A001A625D /* Statue of Unity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Statue of Unity.jpg"; path = "../../Assignments/Assignment_3/Images/Statue of Unity.jpg"; sourceTree = "<group>"; };
+		5E3ABDE922410869001A625D /* qutubMinar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qutubMinar.jpg; sourceTree = "<group>"; };
+		5E3ABDEB224109A7001A625D /* theRidge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theRidge.jpg; sourceTree = "<group>"; };
+		5E3ABDEC224109A7001A625D /* valleyOfFlowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valleyOfFlowers.jpg; sourceTree = "<group>"; };
+		5E3ABDED224109A7001A625D /* amberFort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amberFort.jpg; sourceTree = "<group>"; };
+		5E3ABDEE224109A7001A625D /* goldenTemple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldenTemple.jpg; sourceTree = "<group>"; };
+		5E3ABDF322410B44001A625D /* backwaters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backwaters.jpg; path = ../../../../Documents/backwaters.jpg; sourceTree = "<group>"; };
+		5E3ABDF522410B6F001A625D /* jaisalmer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jaisalmer.jpg; path = ../../../../Documents/jaisalmer.jpg; sourceTree = "<group>"; };
+		5E3ABDF722410B9B001A625D /* redfort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = redfort.jpg; path = ../../../../Documents/redfort.jpg; sourceTree = "<group>"; };
+		5E3ABDF922410C98001A625D /* lakepalace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lakepalace.jpg; path = ../../../../Documents/lakepalace.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,11 +154,15 @@
 		5E3ABDDC2240F9E3001A625D /* images */ = {
 			isa = PBXGroup;
 			children = (
-				5E3ABDE12240FA6A001A625D /* Backwaters.jpg */,
-				5E3ABDE22240FA6A001A625D /* Jaisalmer.jpg */,
-				5E3ABDE02240FA6A001A625D /* Old Goa.jpg */,
-				5E3ABDDF2240FA6A001A625D /* Red Fort, Delhi.jpg */,
-				5E3ABDE32240FA6A001A625D /* Statue of Unity.jpg */,
+				5E3ABDF922410C98001A625D /* lakepalace.jpg */,
+				5E3ABDF722410B9B001A625D /* redfort.jpg */,
+				5E3ABDF522410B6F001A625D /* jaisalmer.jpg */,
+				5E3ABDF322410B44001A625D /* backwaters.jpg */,
+				5E3ABDED224109A7001A625D /* amberFort.jpg */,
+				5E3ABDEE224109A7001A625D /* goldenTemple.jpg */,
+				5E3ABDEB224109A7001A625D /* theRidge.jpg */,
+				5E3ABDEC224109A7001A625D /* valleyOfFlowers.jpg */,
+				5E3ABDE922410869001A625D /* qutubMinar.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -263,12 +275,16 @@
 			files = (
 				5E3ABDB72240F86D001A625D /* LaunchScreen.storyboard in Resources */,
 				5E3ABDB42240F86D001A625D /* Assets.xcassets in Resources */,
-				5E3ABDE42240FA6B001A625D /* Red Fort, Delhi.jpg in Resources */,
 				5E3ABDB22240F86D001A625D /* Main.storyboard in Resources */,
-				5E3ABDE62240FA6B001A625D /* Backwaters.jpg in Resources */,
-				5E3ABDE72240FA6B001A625D /* Jaisalmer.jpg in Resources */,
-				5E3ABDE82240FA6B001A625D /* Statue of Unity.jpg in Resources */,
-				5E3ABDE52240FA6B001A625D /* Old Goa.jpg in Resources */,
+				5E3ABDEA22410869001A625D /* qutubMinar.jpg in Resources */,
+				5E3ABDEF224109A7001A625D /* theRidge.jpg in Resources */,
+				5E3ABDF1224109A7001A625D /* amberFort.jpg in Resources */,
+				5E3ABDF822410B9B001A625D /* redfort.jpg in Resources */,
+				5E3ABDF422410B45001A625D /* backwaters.jpg in Resources */,
+				5E3ABDFA22410C98001A625D /* lakepalace.jpg in Resources */,
+				5E3ABDF0224109A7001A625D /* valleyOfFlowers.jpg in Resources */,
+				5E3ABDF622410B6F001A625D /* jaisalmer.jpg in Resources */,
+				5E3ABDF2224109A7001A625D /* goldenTemple.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
