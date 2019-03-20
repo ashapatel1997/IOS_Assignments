@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ehl-KD-rJ0">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ehl-KD-rJ0">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Azr-JY-GU4">
                                     <size key="itemSize" width="175" height="151"/>
@@ -58,6 +57,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ehl-KD-rJ0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="09Y-po-HN7"/>
+                            <constraint firstItem="ehl-KD-rJ0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4fB-jl-70d"/>
+                            <constraint firstItem="ehl-KD-rJ0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JHy-BP-84X"/>
+                            <constraint firstItem="ehl-KD-rJ0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pg2-4C-MiC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
