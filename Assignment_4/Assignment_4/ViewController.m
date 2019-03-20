@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  Assignment_1
+//  Assignment_4
 //
-//  Created by Asha  on 3/17/19.
+//  Created by Asha  on 3/19/19.
 //  Copyright © 2019 Asha . All rights reserved.
 //
 
@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-@synthesize textField,labelField;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -26,11 +26,4 @@
 }
 
 
-- (IBAction)buttonField:(id)sender {
-    
-    NSString * userInput=textField.text;
-    labelField.text=userInput;
-    
-    textField.clearButtonMode=UITextFieldViewModeWhileEditing;
-}
 @end
